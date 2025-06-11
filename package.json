@@ -1,0 +1,26 @@
+{
+  "name": "set",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Alyona",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+     "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@eslint/js": "^9.28.0",
+    "eslint": "^9.28.0",
+    "eslint-plugin-jest": "^28.13.3",
+    "globals": "^16.2.0",
+    "jest": "^30.0.0"
+  },
+  "dependencies": {
+    "core-js": "^3.43.0"
+  }
+}
